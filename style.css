@@ -4,6 +4,9 @@
     color: purple;
 } */
 /* decendent selector */
+div p{
+    font-family:fantasy;
+}
 .first-div p {
     background-color: green;
     text-decoration: underline;
@@ -14,15 +17,27 @@
   font-size: 32px;
   color: chocolate;
 }
-/* general selector div */
-.third-div ~ p{
-  font-family: fantasy;
-  font-size: 20px;
-  background-color: tomato;
-
-}
 /* adjacent sibling selector */
-.fourth-div + p {
+.third-div + p{
+  font-size: 20px;
+  background-color: yellowgreen;
+}
+/* general selector div */
+.fourth-div ~ p{
   background-color: violet;
   color: crimson;
+}
+.third-div{
+    background-color: tomato;
+}
+.fourth-div{
+    background-color: burlywood;
+}
+.fifth-div{
+    background-color: brown;
+    font-size: 30px;
+}
+video{
+    width: 200px;
+    height: 200px;
 }
