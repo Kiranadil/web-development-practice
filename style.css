@@ -1,0 +1,28 @@
+/* decendent selector */
+/* div p{
+    background-color: yellow;
+    color: purple;
+} */
+/* decendent selector */
+.first-div p {
+    background-color: green;
+    text-decoration: underline;
+}
+/* child selector */
+.second-div > span {
+  background-color:teal;
+  font-size: 32px;
+  color: chocolate;
+}
+/* general selector div */
+.third-div ~ p{
+  font-family: fantasy;
+  font-size: 20px;
+  background-color: tomato;
+
+}
+/* adjacent sibling selector */
+.fourth-div + p {
+  background-color: violet;
+  color: crimson;
+}
